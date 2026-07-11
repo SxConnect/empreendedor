@@ -1,0 +1,13 @@
+fastapi==0.139.0
+uvicorn==0.30.0
+python-multipart
+aiofiles
+python-jose[cryptography]
+passlib[bcrypt]
+pydantic
+sqlalchemy
+redis
+requests
+websockets
+httpx
+python-dotenv

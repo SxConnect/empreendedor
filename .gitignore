@@ -1,4 +1,5 @@
 .venv/
+painel-whats/.venv/
 __pycache__/
 logs/
 *.pyc
