@@ -1,0 +1,1884 @@
+{
+  "syncType": 5,
+  "conversations": [
+    {
+      "ID": "120363402224675720@g.us",
+      "participant": [
+        {
+          "userJID": "136696008024124@lid",
+          "memberLabel": {
+            "label": "PO | Analista | QA | Dev",
+            "labelTimestamp": 1783104655
+          }
+        }
+      ]
+    },
+    {
+      "ID": "120363202935985046@g.us"
+    },
+    {
+      "ID": "120363381351556478@g.us"
+    },
+    {
+      "ID": "120363419368117066@g.us",
+      "participant": [
+        {
+          "userJID": "136696008024124@lid",
+          "memberLabel": {
+            "label": "PO | Analista | QA | Dev",
+            "labelTimestamp": 1783104773
+          }
+        }
+      ]
+    },
+    {
+      "ID": "120363421306243292@g.us",
+      "participant": [
+        {
+          "userJID": "97633498570870@lid",
+          "memberLabel": {
+            "label": "Administradora",
+            "labelTimestamp": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "120363418255180133@g.us"
+    },
+    {
+      "ID": "120363405728722501@g.us",
+      "participant": [
+        {
+          "userJID": "91671815577681@lid",
+          "memberLabel": {
+            "label": "Luiz Fernando entregador",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "128939263525053@lid",
+          "memberLabel": {
+            "label": "Acerola",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "74045773103141@lid",
+          "memberLabel": {
+            "label": "Agendamento",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "25855803826413@lid",
+          "memberLabel": {
+            "label": "Felipe Oliveira",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "79456928575573@lid",
+          "memberLabel": {
+            "label": "Matheus",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "65975294664910@lid",
+          "memberLabel": {
+            "label": "Oi",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "136314208968747@lid",
+          "memberLabel": {
+            "label": "Poxa eu nunca consigo agendar",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "24790719029469@lid",
+          "memberLabel": {
+            "label": "Gb",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "80324629389463@lid",
+          "memberLabel": {
+            "label": "Dudu",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "52768404455555@lid",
+          "memberLabel": {
+            "label": "Werley",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "114087266656307@lid",
+          "memberLabel": {
+            "label": "Iniciante",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "132560222974077@lid",
+          "memberLabel": {
+            "label": "Entregador RJ",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "4767464079404@lid",
+          "memberLabel": {
+            "label": "Júnior",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "93784973025400@lid",
+          "memberLabel": {
+            "label": "Esposa do Mateus",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "35094916005967@lid",
+          "memberLabel": {
+            "label": "Junio PQD",
+            "labelTimestamp": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "120363424055060441@g.us",
+      "participant": [
+        {
+          "userJID": "220293301821540@lid",
+          "memberLabel": {
+            "label": "Master Colab Automatik",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "164046947012833@lid",
+          "memberLabel": {
+            "label": "Master colab",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "54919780388939@lid",
+          "memberLabel": {
+            "label": "Gestor GHL",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "160396308648002@lid",
+          "memberLabel": {
+            "label": "gozap.dev | API for WhatsApp",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "2220581990551@lid",
+          "memberLabel": {
+            "label": "Emidio",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "17712914890967@lid",
+          "memberLabel": {
+            "label": "Ednildo",
+            "labelTimestamp": 0
+          }
+        },
+        {
+          "userJID": "110106117193936@lid",
+          "memberLabel": {
+            "label": "MacDos Online",
+            "labelTimestamp": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "120363403509623364@g.us"
+    }
+  ],
+  "pastParticipants": [
+    {
+      "groupJID": "120363202935985046@g.us",
+      "pastParticipants": [
+        {
+          "userJID": "251174183821374@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782904276
+        },
+        {
+          "userJID": "122652001890481@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782777424
+        },
+        {
+          "userJID": "159051413512226@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782503328
+        }
+      ]
+    },
+    {
+      "groupJID": "120363402224675720@g.us",
+      "pastParticipants": [
+        {
+          "userJID": "179181841342473@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782846805
+        },
+        {
+          "userJID": "205570170736816@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782841622
+        },
+        {
+          "userJID": "75617429106766@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782825501
+        },
+        {
+          "userJID": "160726383640655@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782824580
+        },
+        {
+          "userJID": "202967789650104@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781974665
+        },
+        {
+          "userJID": "203220823584812@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781914152
+        },
+        {
+          "userJID": "3796801466527@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781560008
+        },
+        {
+          "userJID": "130021696008396@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781002038
+        },
+        {
+          "userJID": "111222556987458@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779816651
+        },
+        {
+          "userJID": "92092839801019@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779124404
+        },
+        {
+          "userJID": "218875861958731@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779121633
+        },
+        {
+          "userJID": "134535673057346@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779118604
+        },
+        {
+          "userJID": "28626527457391@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779118423
+        },
+        {
+          "userJID": "48000973987928@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779118186
+        }
+      ]
+    },
+    {
+      "groupJID": "120363381351556478@g.us",
+      "pastParticipants": [
+        {
+          "userJID": "95095240028324@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781728672
+        }
+      ]
+    },
+    {
+      "groupJID": "120363421306243292@g.us",
+      "pastParticipants": [
+        {
+          "userJID": "40359925158010@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783482441
+        },
+        {
+          "userJID": "83361037058211@lid",
+          "leaveReason": 1,
+          "leaveTS": 1782329298
+        },
+        {
+          "userJID": "79336719802613@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782064021
+        },
+        {
+          "userJID": "263032403922982@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782014783
+        },
+        {
+          "userJID": "80393332072597@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778877170
+        },
+        {
+          "userJID": "59249140957221@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778497342
+        }
+      ]
+    },
+    {
+      "groupJID": "120363419368117066@g.us",
+      "pastParticipants": [
+        {
+          "userJID": "160726383640655@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782824580
+        },
+        {
+          "userJID": "134535673057346@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779118604
+        }
+      ]
+    },
+    {
+      "groupJID": "120363418255180133@g.us",
+      "pastParticipants": [
+        {
+          "userJID": "218652641108064@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782897917
+        },
+        {
+          "userJID": "269689754251376@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782612793
+        },
+        {
+          "userJID": "25168659390540@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782566934
+        },
+        {
+          "userJID": "45832300675187@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782485090
+        },
+        {
+          "userJID": "198852858671355@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782398874
+        },
+        {
+          "userJID": "61048967155922@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781947472
+        },
+        {
+          "userJID": "197130593509574@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781528068
+        },
+        {
+          "userJID": "64622480617684@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780968797
+        },
+        {
+          "userJID": "253278667464798@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780926989
+        },
+        {
+          "userJID": "117050877943997@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780750535
+        },
+        {
+          "userJID": "275088494620754@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779712688
+        },
+        {
+          "userJID": "55173217001571@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779662446
+        },
+        {
+          "userJID": "35098573406311@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779318767
+        },
+        {
+          "userJID": "123630700732502@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778774310
+        }
+      ]
+    },
+    {
+      "groupJID": "120363405728722501@g.us",
+      "pastParticipants": [
+        {
+          "userJID": "154739299868725@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783538961
+        },
+        {
+          "userJID": "81815318605964@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783533053
+        },
+        {
+          "userJID": "113293234598023@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783429449
+        },
+        {
+          "userJID": "12279512858641@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783383903
+        },
+        {
+          "userJID": "203392622288939@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783342926
+        },
+        {
+          "userJID": "34780745847000@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783335132
+        },
+        {
+          "userJID": "52321694314649@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783317047
+        },
+        {
+          "userJID": "42803761529001@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783203442
+        },
+        {
+          "userJID": "222278046474280@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783049593
+        },
+        {
+          "userJID": "62045684809836@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783041061
+        },
+        {
+          "userJID": "57561755680876@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782812845
+        },
+        {
+          "userJID": "160907275575398@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782751467
+        },
+        {
+          "userJID": "161735667376325@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782685259
+        },
+        {
+          "userJID": "197169650905305@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782676650
+        },
+        {
+          "userJID": "15101658705932@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782582691
+        },
+        {
+          "userJID": "128698812522747@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782491728
+        },
+        {
+          "userJID": "134613536125092@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782481865
+        },
+        {
+          "userJID": "84134852587752@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782465141
+        },
+        {
+          "userJID": "267684256186530@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782455482
+        },
+        {
+          "userJID": "106936716496968@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782409971
+        },
+        {
+          "userJID": "102413528743985@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782292173
+        },
+        {
+          "userJID": "66641299791996@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782236757
+        },
+        {
+          "userJID": "41490088739027@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782154322
+        },
+        {
+          "userJID": "104123512922304@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782123716
+        },
+        {
+          "userJID": "252694451236913@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782089717
+        },
+        {
+          "userJID": "52278878826612@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782089570
+        },
+        {
+          "userJID": "221711278596304@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782077442
+        },
+        {
+          "userJID": "144856429109297@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781998030
+        },
+        {
+          "userJID": "97431500890168@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781915303
+        },
+        {
+          "userJID": "218708727337163@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781798505
+        },
+        {
+          "userJID": "43035672977435@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781788651
+        },
+        {
+          "userJID": "150032217055288@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781784243
+        },
+        {
+          "userJID": "71400173908120@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781737178
+        },
+        {
+          "userJID": "82678489567363@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781706304
+        },
+        {
+          "userJID": "209784070504682@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781662024
+        },
+        {
+          "userJID": "202503496929399@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781620418
+        },
+        {
+          "userJID": "41115940081918@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781583104
+        },
+        {
+          "userJID": "110522963898452@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781472783
+        },
+        {
+          "userJID": "154009457401920@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781469385
+        },
+        {
+          "userJID": "47752000086149@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781391280
+        },
+        {
+          "userJID": "214920247386219@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781372056
+        },
+        {
+          "userJID": "260889265578015@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781309858
+        },
+        {
+          "userJID": "133574187610261@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781285487
+        },
+        {
+          "userJID": "1856147304639@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781214204
+        },
+        {
+          "userJID": "199364093964496@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781177230
+        },
+        {
+          "userJID": "3341652386008@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781139738
+        },
+        {
+          "userJID": "264819093545139@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781132251
+        },
+        {
+          "userJID": "71373833666805@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781028220
+        },
+        {
+          "userJID": "110264712175761@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780933783
+        },
+        {
+          "userJID": "25048836534377@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780760549
+        },
+        {
+          "userJID": "72340788486210@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780704819
+        },
+        {
+          "userJID": "8959419220032@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780698337
+        },
+        {
+          "userJID": "51905266995378@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780678970
+        },
+        {
+          "userJID": "15827122258086@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780668032
+        },
+        {
+          "userJID": "270046437847166@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780662023
+        },
+        {
+          "userJID": "128999862837397@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780591665
+        },
+        {
+          "userJID": "266799190958167@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780487558
+        },
+        {
+          "userJID": "165163034529884@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780418755
+        },
+        {
+          "userJID": "116836263817430@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780379002
+        },
+        {
+          "userJID": "159657339424890@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780239309
+        },
+        {
+          "userJID": "220048471892030@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780024024
+        },
+        {
+          "userJID": "137082588659961@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779891308
+        },
+        {
+          "userJID": "113735498735697@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779866917
+        },
+        {
+          "userJID": "46506644115688@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779856629
+        },
+        {
+          "userJID": "3007198560487@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779789105
+        },
+        {
+          "userJID": "140841238691951@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779764315
+        },
+        {
+          "userJID": "425218576433@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779742252
+        },
+        {
+          "userJID": "43533956329609@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779568012
+        },
+        {
+          "userJID": "14237900533763@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779458016
+        },
+        {
+          "userJID": "94098555977929@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779285604
+        },
+        {
+          "userJID": "22398992650459@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779234475
+        },
+        {
+          "userJID": "72624356983015@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779209667
+        },
+        {
+          "userJID": "85685268664529@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779153165
+        },
+        {
+          "userJID": "140321145024707@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779148815
+        },
+        {
+          "userJID": "196829861908495@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779107841
+        },
+        {
+          "userJID": "211355525222646@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779053910
+        },
+        {
+          "userJID": "101718146695327@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779053773
+        },
+        {
+          "userJID": "190860192923833@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778961016
+        },
+        {
+          "userJID": "217802556350540@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778899979
+        },
+        {
+          "userJID": "35339041267829@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778886505
+        },
+        {
+          "userJID": "278980288634938@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778885605
+        },
+        {
+          "userJID": "259953566683286@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778885374
+        },
+        {
+          "userJID": "205931317043256@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778865469
+        },
+        {
+          "userJID": "3070951985385@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778858575
+        },
+        {
+          "userJID": "62844464812117@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778806204
+        },
+        {
+          "userJID": "21084262912119@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778797863
+        },
+        {
+          "userJID": "128329512439965@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778545812
+        },
+        {
+          "userJID": "96010118406159@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778382480
+        },
+        {
+          "userJID": "277141405053111@lid",
+          "leaveReason": 0,
+          "leaveTS": 1778366504
+        }
+      ]
+    },
+    {
+      "groupJID": "120363424055060441@g.us",
+      "pastParticipants": [
+        {
+          "userJID": "168096664969312@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783123635
+        },
+        {
+          "userJID": "41726194495685@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783103789
+        },
+        {
+          "userJID": "163513834184783@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783100833
+        },
+        {
+          "userJID": "27629558194365@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782917483
+        },
+        {
+          "userJID": "280474282938453@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781810457
+        },
+        {
+          "userJID": "30503075901672@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781300615
+        },
+        {
+          "userJID": "59455366537223@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781009833
+        },
+        {
+          "userJID": "216251804708983@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781005905
+        },
+        {
+          "userJID": "258230680830197@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780537135
+        },
+        {
+          "userJID": "191259205460037@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780484020
+        },
+        {
+          "userJID": "144156450119861@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780369804
+        },
+        {
+          "userJID": "125340231958673@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780259252
+        },
+        {
+          "userJID": "78795570675811@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780161421
+        },
+        {
+          "userJID": "135184263438589@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780149917
+        },
+        {
+          "userJID": "148313995264230@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780102679
+        },
+        {
+          "userJID": "125645157863677@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780094280
+        },
+        {
+          "userJID": "194721016213596@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780021266
+        },
+        {
+          "userJID": "68809704632487@lid",
+          "leaveReason": 0,
+          "leaveTS": 1780018856
+        },
+        {
+          "userJID": "231945799745646@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779977726
+        },
+        {
+          "userJID": "60305669390385@lid",
+          "leaveReason": 0,
+          "leaveTS": 1779972780
+        }
+      ]
+    },
+    {
+      "groupJID": "120363403509623364@g.us",
+      "pastParticipants": [
+        {
+          "userJID": "132590656860291@lid",
+          "leaveReason": 0,
+          "leaveTS": 1783205507
+        },
+        {
+          "userJID": "242034426306560@lid",
+          "leaveReason": 0,
+          "leaveTS": 1782962509
+        },
+        {
+          "userJID": "117192578363574@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781696825
+        },
+        {
+          "userJID": "230730055553069@lid",
+          "leaveReason": 0,
+          "leaveTS": 1781195098
+        }
+      ]
+    }
+  ],
+  "callLogRecords": [
+    {
+      "callResult": 0,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 171,
+      "startTime": 1782401875,
+      "isIncoming": false,
+      "isVideo": false,
+      "callID": "007BE68EA30E5D79B64EB604AB168BF6",
+      "callCreatorJID": "273611462037571@lid",
+      "participants": [
+        {
+          "userJID": "95967336501274@lid",
+          "callResult": 0
+        }
+      ],
+      "callType": 0
+    },
+    {
+      "callResult": 4,
+      "isDndMode": true,
+      "silenceReason": 0,
+      "duration": 0,
+      "startTime": 1780591812,
+      "isIncoming": true,
+      "isVideo": false,
+      "callID": "00D4DA01A06A864794D8BA0859CB348B",
+      "callCreatorJID": "83365399126214@lid",
+      "participants": [
+        {
+          "userJID": "83365399126214@lid",
+          "callResult": 4
+        }
+      ],
+      "callType": 0
+    },
+    {
+      "callResult": 4,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 0,
+      "startTime": 1777164001,
+      "isIncoming": true,
+      "isVideo": false,
+      "callID": "00A4DCCA3B99F736ECCBE09896326AFF",
+      "callCreatorJID": "166232565248097@lid",
+      "groupJID": "120363421306243292@g.us",
+      "participants": [
+        {
+          "userJID": "166232565248097@lid",
+          "callResult": 0
+        }
+      ],
+      "callType": 2
+    },
+    {
+      "callResult": 4,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 0,
+      "startTime": 1765220282,
+      "isIncoming": false,
+      "isVideo": false,
+      "callID": "A58051D59D51416EDAEE28002C6CD063",
+      "callCreatorJID": "273611462037571@lid",
+      "participants": [
+        {
+          "userJID": "182897139003419@lid",
+          "callResult": 4
+        }
+      ],
+      "callType": 0
+    },
+    {
+      "callResult": 0,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 102,
+      "startTime": 1765218767,
+      "isIncoming": false,
+      "isVideo": false,
+      "callID": "A53347279991A633D2D8CD8FB9C61C33",
+      "callCreatorJID": "273611462037571@lid",
+      "participants": [
+        {
+          "userJID": "182897139003419@lid",
+          "callResult": 0
+        }
+      ],
+      "callType": 0
+    },
+    {
+      "callResult": 4,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 0,
+      "startTime": 1763235638,
+      "isIncoming": true,
+      "isVideo": false,
+      "callID": "AC9A94F986C618411A93B9BC0265DD42",
+      "callCreatorJID": "23764255412373@lid",
+      "groupJID": "120363403509623364@g.us",
+      "participants": [
+        {
+          "userJID": "23764255412373@lid",
+          "callResult": 0
+        }
+      ],
+      "callType": 2
+    },
+    {
+      "callResult": 4,
+      "isDndMode": true,
+      "silenceReason": 0,
+      "duration": 0,
+      "startTime": 1761673163,
+      "isIncoming": true,
+      "isVideo": false,
+      "callID": "ACAC679BC6E94172CC192EA1D59C4F8A",
+      "callCreatorJID": "23764255412373@lid",
+      "groupJID": "120363403509623364@g.us",
+      "participants": [
+        {
+          "userJID": "23764255412373@lid",
+          "callResult": 0
+        }
+      ],
+      "callType": 2
+    },
+    {
+      "callResult": 4,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 0,
+      "startTime": 1760477282,
+      "isIncoming": true,
+      "isVideo": false,
+      "callID": "AC199736498A3BD7F632B2D6B8E3C999",
+      "callCreatorJID": "5521983606085@s.whatsapp.net",
+      "groupJID": "120363403509623364@g.us",
+      "participants": [
+        {
+          "userJID": "5521983606085@s.whatsapp.net",
+          "callResult": 0
+        }
+      ],
+      "callType": 2
+    },
+    {
+      "callResult": 4,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 0,
+      "startTime": 1760404156,
+      "isIncoming": true,
+      "isVideo": false,
+      "callID": "ACDA61BC9C9AFD1BFCEA9A729AEAAFE9",
+      "callCreatorJID": "5521983606085@s.whatsapp.net",
+      "groupJID": "120363403509623364@g.us",
+      "participants": [
+        {
+          "userJID": "5521983606085@s.whatsapp.net",
+          "callResult": 0
+        }
+      ],
+      "callType": 2
+    },
+    {
+      "callResult": 0,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 33,
+      "startTime": 1758645860,
+      "isIncoming": true,
+      "isVideo": false,
+      "callID": "A5C65409430B993189391B34DC9BFEAF",
+      "callCreatorJID": "5521978419068@s.whatsapp.net",
+      "participants": [
+        {
+          "userJID": "5521978419068@s.whatsapp.net",
+          "callResult": 0
+        }
+      ],
+      "callType": 0
+    },
+    {
+      "callResult": 0,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 28,
+      "startTime": 1758639987,
+      "isIncoming": false,
+      "isVideo": false,
+      "callID": "A52F2DE7A55299651D7E084163DC2A05",
+      "callCreatorJID": "5521987000079@s.whatsapp.net",
+      "participants": [
+        {
+          "userJID": "5521978419068@s.whatsapp.net",
+          "callResult": 0
+        }
+      ],
+      "callType": 0
+    },
+    {
+      "callResult": 4,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 0,
+      "startTime": 1758582502,
+      "isIncoming": false,
+      "isVideo": false,
+      "callID": "A57FA48C2408535CD82718618E747695",
+      "callCreatorJID": "5521987000079@s.whatsapp.net",
+      "participants": [
+        {
+          "userJID": "5521978419068@s.whatsapp.net",
+          "callResult": 4
+        }
+      ],
+      "callType": 0
+    },
+    {
+      "callResult": 0,
+      "isDndMode": false,
+      "silenceReason": 0,
+      "duration": 79,
+      "startTime": 1758406361,
+      "isIncoming": true,
+      "isVideo": false,
+      "callID": "A58164E98B1F118513C5EF1CD3918DD6",
+      "callCreatorJID": "5521978419068@s.whatsapp.net",
+      "participants": [
+        {
+          "userJID": "5521978419068@s.whatsapp.net",
+          "callResult": 0
+        }
+      ],
+      "callType": 0
+    }
+  ],
+  "phoneNumberToLidMappings": [
+    {
+      "pnJID": "5521994975211@s.whatsapp.net",
+      "lidJID": "59249140957221@lid"
+    },
+    {
+      "pnJID": "351935007792@s.whatsapp.net",
+      "lidJID": "122652001890481@lid"
+    },
+    {
+      "pnJID": "5521986749855@s.whatsapp.net",
+      "lidJID": "280474282938453@lid"
+    },
+    {
+      "pnJID": "5521983337890@s.whatsapp.net",
+      "lidJID": "154009457401920@lid"
+    },
+    {
+      "pnJID": "5521998581567@s.whatsapp.net",
+      "lidJID": "128698812522747@lid"
+    },
+    {
+      "pnJID": "556284713253@s.whatsapp.net",
+      "lidJID": "134535673057346@lid"
+    },
+    {
+      "pnJID": "5521975660839@s.whatsapp.net",
+      "lidJID": "12279512858641@lid"
+    },
+    {
+      "pnJID": "5521985014633@s.whatsapp.net",
+      "lidJID": "35339041267829@lid"
+    },
+    {
+      "pnJID": "5521998463382@s.whatsapp.net",
+      "lidJID": "275088494620754@lid"
+    },
+    {
+      "pnJID": "5521969424668@s.whatsapp.net",
+      "lidJID": "72340788486210@lid"
+    },
+    {
+      "pnJID": "5521985781824@s.whatsapp.net",
+      "lidJID": "252694451236913@lid"
+    },
+    {
+      "pnJID": "5521982209194@s.whatsapp.net",
+      "lidJID": "140321145024707@lid"
+    },
+    {
+      "pnJID": "5521959153942@s.whatsapp.net",
+      "lidJID": "104123512922304@lid"
+    },
+    {
+      "pnJID": "5521974716384@s.whatsapp.net",
+      "lidJID": "116836263817430@lid"
+    },
+    {
+      "pnJID": "5521974708863@s.whatsapp.net",
+      "lidJID": "117192578363574@lid"
+    },
+    {
+      "pnJID": "5521975089260@s.whatsapp.net",
+      "lidJID": "3070951985385@lid"
+    },
+    {
+      "pnJID": "554396361177@s.whatsapp.net",
+      "lidJID": "135184263438589@lid"
+    },
+    {
+      "pnJID": "5521965067154@s.whatsapp.net",
+      "lidJID": "144856429109297@lid"
+    },
+    {
+      "pnJID": "5521986901966@s.whatsapp.net",
+      "lidJID": "106936716496968@lid"
+    },
+    {
+      "pnJID": "5521965189203@s.whatsapp.net",
+      "lidJID": "94098555977929@lid"
+    },
+    {
+      "pnJID": "5521974321441@s.whatsapp.net",
+      "lidJID": "66641299791996@lid"
+    },
+    {
+      "pnJID": "5521986582435@s.whatsapp.net",
+      "lidJID": "40359925158010@lid"
+    },
+    {
+      "pnJID": "5521988156050@s.whatsapp.net",
+      "lidJID": "190860192923833@lid"
+    },
+    {
+      "pnJID": "5521976160513@s.whatsapp.net",
+      "lidJID": "196829861908495@lid"
+    },
+    {
+      "pnJID": "5521983222291@s.whatsapp.net",
+      "lidJID": "220048471892030@lid"
+    },
+    {
+      "pnJID": "5521972346160@s.whatsapp.net",
+      "lidJID": "82678489567363@lid"
+    },
+    {
+      "pnJID": "5521971433407@s.whatsapp.net",
+      "lidJID": "110264712175761@lid"
+    },
+    {
+      "pnJID": "5521974031553@s.whatsapp.net",
+      "lidJID": "110522963898452@lid"
+    },
+    {
+      "pnJID": "5521982598732@s.whatsapp.net",
+      "lidJID": "165163034529884@lid"
+    },
+    {
+      "pnJID": "5521985455683@s.whatsapp.net",
+      "lidJID": "62045684809836@lid"
+    },
+    {
+      "pnJID": "5521976510734@s.whatsapp.net",
+      "lidJID": "15827122258086@lid"
+    },
+    {
+      "pnJID": "5521981454218@s.whatsapp.net",
+      "lidJID": "71373833666805@lid"
+    },
+    {
+      "pnJID": "559991119466@s.whatsapp.net",
+      "lidJID": "253278667464798@lid"
+    },
+    {
+      "pnJID": "553899046519@s.whatsapp.net",
+      "lidJID": "27629558194365@lid"
+    },
+    {
+      "pnJID": "5514998326301@s.whatsapp.net",
+      "lidJID": "3796801466527@lid"
+    },
+    {
+      "pnJID": "553498731338@s.whatsapp.net",
+      "lidJID": "198852858671355@lid"
+    },
+    {
+      "pnJID": "5511978306691@s.whatsapp.net",
+      "lidJID": "75617429106766@lid"
+    },
+    {
+      "pnJID": "5521977527362@s.whatsapp.net",
+      "lidJID": "205931317043256@lid"
+    },
+    {
+      "pnJID": "5521981749608@s.whatsapp.net",
+      "lidJID": "260889265578015@lid"
+    },
+    {
+      "pnJID": "5521977243976@s.whatsapp.net",
+      "lidJID": "81815318605964@lid"
+    },
+    {
+      "pnJID": "5521968895770@s.whatsapp.net",
+      "lidJID": "1856147304639@lid"
+    },
+    {
+      "pnJID": "5527995819138@s.whatsapp.net",
+      "lidJID": "95095240028324@lid"
+    },
+    {
+      "pnJID": "5519984182870@s.whatsapp.net",
+      "lidJID": "159051413512226@lid"
+    },
+    {
+      "pnJID": "5511956966007@s.whatsapp.net",
+      "lidJID": "25168659390540@lid"
+    },
+    {
+      "pnJID": "5521976200670@s.whatsapp.net",
+      "lidJID": "34780745847000@lid"
+    },
+    {
+      "pnJID": "5521983161561@s.whatsapp.net",
+      "lidJID": "83361037058211@lid"
+    },
+    {
+      "pnJID": "553194534410@s.whatsapp.net",
+      "lidJID": "218875861958731@lid"
+    },
+    {
+      "pnJID": "5521991625364@s.whatsapp.net",
+      "lidJID": "277141405053111@lid"
+    },
+    {
+      "pnJID": "5521993633146@s.whatsapp.net",
+      "lidJID": "270046437847166@lid"
+    },
+    {
+      "pnJID": "5521969213308@s.whatsapp.net",
+      "lidJID": "150032217055288@lid"
+    },
+    {
+      "pnJID": "5521965920297@s.whatsapp.net",
+      "lidJID": "97431500890168@lid"
+    },
+    {
+      "pnJID": "558196607421@s.whatsapp.net",
+      "lidJID": "269689754251376@lid"
+    },
+    {
+      "pnJID": "13478785374@s.whatsapp.net",
+      "lidJID": "168096664969312@lid"
+    },
+    {
+      "pnJID": "558581360637@s.whatsapp.net",
+      "lidJID": "60305669390385@lid"
+    },
+    {
+      "pnJID": "558181341209@s.whatsapp.net",
+      "lidJID": "191259205460037@lid"
+    },
+    {
+      "pnJID": "5521920056886@s.whatsapp.net",
+      "lidJID": "46506644115688@lid"
+    },
+    {
+      "pnJID": "5521992727463@s.whatsapp.net",
+      "lidJID": "259953566683286@lid"
+    },
+    {
+      "pnJID": "5511986094346@s.whatsapp.net",
+      "lidJID": "35098573406311@lid"
+    },
+    {
+      "pnJID": "5521978972193@s.whatsapp.net",
+      "lidJID": "214920247386219@lid"
+    },
+    {
+      "pnJID": "5521964498654@s.whatsapp.net",
+      "lidJID": "52278878826612@lid"
+    },
+    {
+      "pnJID": "5521992049889@s.whatsapp.net",
+      "lidJID": "14237900533763@lid"
+    },
+    {
+      "pnJID": "554195091687@s.whatsapp.net",
+      "lidJID": "203220823584812@lid"
+    },
+    {
+      "pnJID": "5521999510284@s.whatsapp.net",
+      "lidJID": "218708727337163@lid"
+    },
+    {
+      "pnJID": "5521976321042@s.whatsapp.net",
+      "lidJID": "80393332072597@lid"
+    },
+    {
+      "pnJID": "5521967621994@s.whatsapp.net",
+      "lidJID": "113293234598023@lid"
+    },
+    {
+      "pnJID": "5521968864649@s.whatsapp.net",
+      "lidJID": "101718146695327@lid"
+    },
+    {
+      "pnJID": "554784237768@s.whatsapp.net",
+      "lidJID": "117050877943997@lid"
+    },
+    {
+      "pnJID": "5521990789335@s.whatsapp.net",
+      "lidJID": "221711278596304@lid"
+    },
+    {
+      "pnJID": "5521972808020@s.whatsapp.net",
+      "lidJID": "202503496929399@lid"
+    },
+    {
+      "pnJID": "5527998705287@s.whatsapp.net",
+      "lidJID": "55173217001571@lid"
+    },
+    {
+      "pnJID": "555499413481@s.whatsapp.net",
+      "lidJID": "41726194495685@lid"
+    },
+    {
+      "pnJID": "5522974035447@s.whatsapp.net",
+      "lidJID": "194721016213596@lid"
+    },
+    {
+      "pnJID": "5521994823400@s.whatsapp.net",
+      "lidJID": "83365399126214@lid"
+    },
+    {
+      "pnJID": "5521993433727@s.whatsapp.net",
+      "lidJID": "85685268664529@lid"
+    },
+    {
+      "pnJID": "5521997963442@s.whatsapp.net",
+      "lidJID": "41490088739027@lid"
+    },
+    {
+      "pnJID": "5521971274972@s.whatsapp.net",
+      "lidJID": "96010118406159@lid"
+    },
+    {
+      "pnJID": "5521970706814@s.whatsapp.net",
+      "lidJID": "140841238691951@lid"
+    },
+    {
+      "pnJID": "5521980573663@s.whatsapp.net",
+      "lidJID": "278980288634938@lid"
+    },
+    {
+      "pnJID": "5521971388578@s.whatsapp.net",
+      "lidJID": "113735498735697@lid"
+    },
+    {
+      "pnJID": "559891982651@s.whatsapp.net",
+      "lidJID": "205570170736816@lid"
+    },
+    {
+      "pnJID": "554196332719@s.whatsapp.net",
+      "lidJID": "216251804708983@lid"
+    },
+    {
+      "pnJID": "5521993348191@s.whatsapp.net",
+      "lidJID": "199364093964496@lid"
+    },
+    {
+      "pnJID": "5521965414725@s.whatsapp.net",
+      "lidJID": "84134852587752@lid"
+    },
+    {
+      "pnJID": "5521990019749@s.whatsapp.net",
+      "lidJID": "211355525222646@lid"
+    },
+    {
+      "pnJID": "5521982500345@s.whatsapp.net",
+      "lidJID": "425218576433@lid"
+    },
+    {
+      "pnJID": "5521965189163@s.whatsapp.net",
+      "lidJID": "79336719802613@lid"
+    },
+    {
+      "pnJID": "5521986525958@s.whatsapp.net",
+      "lidJID": "52321694314649@lid"
+    },
+    {
+      "pnJID": "5521988209693@s.whatsapp.net",
+      "lidJID": "43035672977435@lid"
+    },
+    {
+      "pnJID": "5521977522198@s.whatsapp.net",
+      "lidJID": "41115940081918@lid"
+    },
+    {
+      "pnJID": "5521976101357@s.whatsapp.net",
+      "lidJID": "230730055553069@lid"
+    },
+    {
+      "pnJID": "5521981252150@s.whatsapp.net",
+      "lidJID": "137082588659961@lid"
+    },
+    {
+      "pnJID": "5511950532818@s.whatsapp.net",
+      "lidJID": "231945799745646@lid"
+    },
+    {
+      "pnJID": "5521964717957@s.whatsapp.net",
+      "lidJID": "42803761529001@lid"
+    },
+    {
+      "pnJID": "5521990161375@s.whatsapp.net",
+      "lidJID": "102413528743985@lid"
+    },
+    {
+      "pnJID": "558487191300@s.whatsapp.net",
+      "lidJID": "179181841342473@lid"
+    },
+    {
+      "pnJID": "5521965289443@s.whatsapp.net",
+      "lidJID": "264819093545139@lid"
+    },
+    {
+      "pnJID": "5511987229063@s.whatsapp.net",
+      "lidJID": "28626527457391@lid"
+    },
+    {
+      "pnJID": "5521990578211@s.whatsapp.net",
+      "lidJID": "242034426306560@lid"
+    },
+    {
+      "pnJID": "5511996363394@s.whatsapp.net",
+      "lidJID": "251174183821374@lid"
+    },
+    {
+      "pnJID": "5521968714593@s.whatsapp.net",
+      "lidJID": "25048836534377@lid"
+    },
+    {
+      "pnJID": "553184953252@s.whatsapp.net",
+      "lidJID": "125645157863677@lid"
+    },
+    {
+      "pnJID": "5521981758082@s.whatsapp.net",
+      "lidJID": "128329512439965@lid"
+    },
+    {
+      "pnJID": "5521983842289@s.whatsapp.net",
+      "lidJID": "21084262912119@lid"
+    },
+    {
+      "pnJID": "553399890639@s.whatsapp.net",
+      "lidJID": "123630700732502@lid"
+    },
+    {
+      "pnJID": "5521978419068@s.whatsapp.net",
+      "lidJID": "13370702983306@lid"
+    },
+    {
+      "pnJID": "5511948243518@s.whatsapp.net",
+      "lidJID": "48000973987928@lid"
+    },
+    {
+      "pnJID": "554591111217@s.whatsapp.net",
+      "lidJID": "163513834184783@lid"
+    },
+    {
+      "pnJID": "5521996580126@s.whatsapp.net",
+      "lidJID": "161735667376325@lid"
+    },
+    {
+      "pnJID": "5521988111702@s.whatsapp.net",
+      "lidJID": "47752000086149@lid"
+    },
+    {
+      "pnJID": "5521983823158@s.whatsapp.net",
+      "lidJID": "209784070504682@lid"
+    },
+    {
+      "pnJID": "5521972671508@s.whatsapp.net",
+      "lidJID": "15101658705932@lid"
+    },
+    {
+      "pnJID": "5521996554591@s.whatsapp.net",
+      "lidJID": "203392622288939@lid"
+    },
+    {
+      "pnJID": "558499131519@s.whatsapp.net",
+      "lidJID": "218652641108064@lid"
+    },
+    {
+      "pnJID": "557185169870@s.whatsapp.net",
+      "lidJID": "61048967155922@lid"
+    },
+    {
+      "pnJID": "5521999259767@s.whatsapp.net",
+      "lidJID": "92092839801019@lid"
+    },
+    {
+      "pnJID": "553496303050@s.whatsapp.net",
+      "lidJID": "258230680830197@lid"
+    },
+    {
+      "pnJID": "5521965396528@s.whatsapp.net",
+      "lidJID": "3007198560487@lid"
+    },
+    {
+      "pnJID": "559191136887@s.whatsapp.net",
+      "lidJID": "160726383640655@lid"
+    },
+    {
+      "pnJID": "5511992521494@s.whatsapp.net",
+      "lidJID": "197130593509574@lid"
+    },
+    {
+      "pnJID": "5521967459031@s.whatsapp.net",
+      "lidJID": "134613536125092@lid"
+    },
+    {
+      "pnJID": "5521969772776@s.whatsapp.net",
+      "lidJID": "57561755680876@lid"
+    },
+    {
+      "pnJID": "593995491852@s.whatsapp.net",
+      "lidJID": "148313995264230@lid"
+    },
+    {
+      "pnJID": "5521965881485@s.whatsapp.net",
+      "lidJID": "133574187610261@lid"
+    },
+    {
+      "pnJID": "5521974864945@s.whatsapp.net",
+      "lidJID": "72624356983015@lid"
+    },
+    {
+      "pnJID": "5521959080867@s.whatsapp.net",
+      "lidJID": "160907275575398@lid"
+    },
+    {
+      "pnJID": "553288556931@s.whatsapp.net",
+      "lidJID": "68809704632487@lid"
+    },
+    {
+      "pnJID": "553284275053@s.whatsapp.net",
+      "lidJID": "59455366537223@lid"
+    },
+    {
+      "pnJID": "5521976688778@s.whatsapp.net",
+      "lidJID": "222278046474280@lid"
+    },
+    {
+      "pnJID": "244926300965@s.whatsapp.net",
+      "lidJID": "125340231958673@lid"
+    },
+    {
+      "pnJID": "5521988604222@s.whatsapp.net",
+      "lidJID": "128999862837397@lid"
+    },
+    {
+      "pnJID": "5521995871050@s.whatsapp.net",
+      "lidJID": "154739299868725@lid"
+    },
+    {
+      "pnJID": "5527995809103@s.whatsapp.net",
+      "lidJID": "144156450119861@lid"
+    },
+    {
+      "pnJID": "558189730201@s.whatsapp.net",
+      "lidJID": "78795570675811@lid"
+    },
+    {
+      "pnJID": "5521970999655@s.whatsapp.net",
+      "lidJID": "64622480617684@lid"
+    },
+    {
+      "pnJID": "5521966030441@s.whatsapp.net",
+      "lidJID": "22398992650459@lid"
+    },
+    {
+      "pnJID": "5522992893265@s.whatsapp.net",
+      "lidJID": "267684256186530@lid"
+    },
+    {
+      "pnJID": "5521993982305@s.whatsapp.net",
+      "lidJID": "159657339424890@lid"
+    },
+    {
+      "pnJID": "5521951016944@s.whatsapp.net",
+      "lidJID": "43533956329609@lid"
+    },
+    {
+      "pnJID": "5521991699155@s.whatsapp.net",
+      "lidJID": "8959419220032@lid"
+    },
+    {
+      "pnJID": "5521973932019@s.whatsapp.net",
+      "lidJID": "3341652386008@lid"
+    },
+    {
+      "pnJID": "5521992999182@s.whatsapp.net",
+      "lidJID": "263032403922982@lid"
+    },
+    {
+      "pnJID": "5527996632763@s.whatsapp.net",
+      "lidJID": "111222556987458@lid"
+    },
+    {
+      "pnJID": "5521981989954@s.whatsapp.net",
+      "lidJID": "197169650905305@lid"
+    },
+    {
+      "pnJID": "5521991311990@s.whatsapp.net",
+      "lidJID": "62844464812117@lid"
+    },
+    {
+      "pnJID": "5521965233295@s.whatsapp.net",
+      "lidJID": "266799190958167@lid"
+    },
+    {
+      "pnJID": "554888080780@s.whatsapp.net",
+      "lidJID": "130021696008396@lid"
+    },
+    {
+      "pnJID": "556293176467@s.whatsapp.net",
+      "lidJID": "202967789650104@lid"
+    },
+    {
+      "pnJID": "5521982162024@s.whatsapp.net",
+      "lidJID": "51905266995378@lid"
+    },
+    {
+      "pnJID": "5527981881160@s.whatsapp.net",
+      "lidJID": "30503075901672@lid"
+    },
+    {
+      "pnJID": "557798241712@s.whatsapp.net",
+      "lidJID": "45832300675187@lid"
+    },
+    {
+      "pnJID": "5521994069693@s.whatsapp.net",
+      "lidJID": "217802556350540@lid"
+    },
+    {
+      "pnJID": "5521972328505@s.whatsapp.net",
+      "lidJID": "71400173908120@lid"
+    },
+    {
+      "pnJID": "5511931351668@s.whatsapp.net",
+      "lidJID": "132590656860291@lid"
+    }
+  ]
+}
