@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentação dos Agentes - SxConnect</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .docs-wrap { padding: 8px 0; }
+    .docs-wrap h1 { font-size: 26px; font-weight: 800; margin: 0 0 6px; }
+    .docs-wrap h2 { font-size: 18px; font-weight: 700; margin: 22px 0 8px; }
+    .docs-wrap p { color: var(--muted); line-height: 1.6; margin: 0 0 12px; }
+    .docs-wrap ul { padding-left: 18px; color: var(--muted); }
+    .docs-wrap li { margin: 6px 0; }
+    .docs-wrap code { background: rgba(148,163,184,0.1); padding: 2px 6px; border-radius: 6px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <img class="brand-logo" src="/logo.png" alt="Hermes" />
+        <div class="brand-text">
+          <div class="brand-title">Hermes</div>
+          <div class="brand-subtitle">By SxConnect</div>
+        </div>
+        <button id="sidebar-toggle" class="theme-toggle brand-toggle" aria-label="Abrir ou fechar menu" title="Abrir/fechar menu">◀</button>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+      <nav class="nav">
+        <a class="nav-item" href="/#/home" title="Início"><span class="nav-icon">🏠</span><span class="nav-label">Início</span></a>
+        <a class="nav-item" href="/#/assistente" title="Assistente"><span class="nav-icon">💬</span><span class="nav-label">Assistente</span></a>
+        <a class="nav-item" href="/#/whatsapp-embed" title="WhatsApp"><span class="nav-icon">📱</span><span class="nav-label">WhatsApp</span></a>
+        <a class="nav-item" href="/#/kambam" title="Kambam"><span class="nav-icon">🗂️</span><span class="nav-label">Kambam</span></a>
+        <a class="nav-item" href="/#/agendamento" title="Agendamento"><span class="nav-icon">📅</span><span class="nav-label">Agendamento</span></a>
+        <a class="nav-item" href="/#/documentacao" title="Documentação"><span class="nav-icon">📑</span><span class="nav-label">Documentação</span></a>
+      </nav>
+      <div class="sidebar-footer"><span id="health-pill" class="pill">—</span></div>
+    </aside>
+    <main class="main" id="main">
+      <div class="docs-wrap">
+        <h1>Documentação dos Agentes</h1>
+        <h2>O que são</h2>
+        <p>São módulos inteligentes que executam tarefas automáticas, como qualificação de leads, follow-up, organização do funil e resposta inicial no WhatsApp.</p>
+        <h2>Funcionalidades previstas</h2>
+        <ul>
+          <li>Resposta automática no WhatsApp com fluxos personalizados.</li>
+          <li>Movimentação de cards no Kambam conforme o estágio do lead.</li>
+          <li>Regras de follow-up e bloqueio de contatos desistentes.</li>
+          <li>Geração de relatórios e métricas de atendimento.</li>
+        </ul>
+        <h2>Status</h2>
+        <p>Os agentes estão em estruturação. A base atual do Kambam e do WhatsApp já suporta essa integração e será expandida nas próximas etapas.</p>
+      </div>
+    </main>
+  </div>
+  <script>
+    (function(){
+      var key = 'sx.theme';
+      var root = document.documentElement;
+      var saved = localStorage.getItem(key);
+      if (saved) root.setAttribute('data-theme', saved);
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', function(){
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem(key, next);
+        btn.textContent = next === 'dark' ? '🌙' : '☀️';
+      });
+    })();
+  </script>
+</body>
+</html>

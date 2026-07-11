@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hermes By SxConnect</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <img class="brand-logo" src="/logo.png" alt="Hermes" />
+        <div class="brand-text">
+          <div class="brand-title">Hermes</div>
+          <div class="brand-subtitle">By SxConnect</div>
+        </div>
+        <button id="sidebar-toggle" class="theme-toggle brand-toggle" aria-label="Abrir ou fechar menu" title="Abrir/fechar menu">◀</button>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+      <nav class="nav">
+        <a class="nav-item active" data-page="home" href="#/home" title="Início"><span class="nav-icon">🏠</span><span class="nav-label">Início</span></a>
+        <a class="nav-item" data-page="assistente" href="#/assistente" title="Assistente"><span class="nav-icon">💬</span><span class="nav-label">Assistente</span></a>
+        <a class="nav-item" data-page="memoria" href="#/memoria" title="Memória"><span class="nav-icon">🧠</span><span class="nav-label">Memória</span></a>
+        <a class="nav-item" data-page="produtos" href="#/produtos" title="Produtos/Serviços"><span class="nav-icon">📦</span><span class="nav-label">Produtos</span></a>
+        <a class="nav-item" data-page="relatorios" href="#/relatorios" title="Relatórios"><span class="nav-icon">📊</span><span class="nav-label">Relatórios</span></a>
+        <a class="nav-item" data-page="whatsapp-embed" href="#/whatsapp-embed" title="WhatsApp"><span class="nav-icon">📱</span><span class="nav-label">WhatsApp</span></a>
+        <a class="nav-item" data-page="kambam" href="#/kambam" title="Kambam"><span class="nav-icon">🗂️</span><span class="nav-label">Kambam</span></a>
+        <a class="nav-item" data-page="agendamento" href="#/agendamento" title="Agendamento"><span class="nav-icon">📅</span><span class="nav-label">Agendamento</span></a>
+        <a class="nav-item" data-page="documentacao" href="#/documentacao" title="Documentação"><span class="nav-icon">📑</span><span class="nav-label">Documentação</span></a>
+      </nav>
+      <div class="sidebar-footer">
+        <span id="health-pill" class="pill">—</span>
+        <button id="logout-btn" class="badge" style="margin-top:8px" title="Sair">🚪 Sair</button>
+      </div>
+    </aside>
+    <main class="main" id="main"><div class="page"><div class="page-header"><div><div class="title">Início</div><div class="subtitle">Visão geral da operação.</div></div></div><div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;"><div class="card"><div class="muted">Eventos no mês</div><div class="kpi" id="home-events">0</div><div class="muted" id="home-events-delta"></div></div><div class="card"><div class="muted">Conversas ativas hoje</div><div class="kpi" id="home-chats">0</div><div class="muted" id="home-chats-delta"></div></div><div class="card"><div class="muted">Taxa de ocupação</div><div class="kpi" id="home-occupancy">0%</div><div class="muted" id="home-occupancy-delta"></div></div><div class="card"><div class="muted">Usuários ativos</div><div class="kpi" id="home-users">0</div><div class="muted" id="home-users-delta"></div></div></div><div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 18px;"><div class="card"><div class="card-head"><div><div class="title">Atividade</div><div class="subtitle">Últimos 7 dias</div></div></div><div class="stack"><svg viewBox="0 0 320 160" preserveAspectRatio="none" style="width:100%;height:160px"><polyline fill="none" stroke="currentColor" stroke-width="2" points="0,140 45,120 90,110 135,100 180,80 225,70 270,40 320,20"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Eventos por status</div><div class="subtitle">Empilhado</div></div></div><div class="stack"><svg viewBox="0 0 320 180" preserveAspectRatio="none" style="width:100%;height:180px"><rect x="20" y="120" width="40" height="40" fill="currentColor" opacity="0.6"/><rect x="70" y="90" width="40" height="70" fill="currentColor" opacity="0.7"/><rect x="120" y="60" width="40" height="100" fill="currentColor" opacity="0.8"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Horários mais movimentados</div><div class="subtitle">Semana atual</div></div></div><div class="stack"><svg viewBox="0 0 320 200" preserveAspectRatio="none" style="width:100%;height:200px"><rect x="20" y="40" width="30" height="140" fill="currentColor" opacity="0.5"/><rect x="60" y="20" width="30" height="160" fill="currentColor" opacity="0.6"/><rect x="100" y="50" width="30" height="130" fill="currentColor" opacity="0.5"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Distribuição por tipo</div><div class="subtitle">Rosca</div></div></div><div class="stack"><svg viewBox="0 0 320 200" preserveAspectRatio="none" style="width:100%;height:200px"><circle cx="160" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="30" stroke-dasharray="160 440" opacity="0.9"/><circle cx="160" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="30" stroke-dasharray="120 440" stroke-dashoffset="-160" opacity="0.7"/></svg></div></div></div><div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 18px;"><div class="card"><div class="card-head"><div><div class="title">Mensagens por dia</div><div class="subtitle">Últimos 7 dias</div></div></div><div class="stack"><svg viewBox="0 0 320 160" preserveAspectRatio="none" style="width:100%;height:160px"><polyline fill="none" stroke="currentColor" stroke-width="2" points="0,120 45,110 90,80 135,100 180,60 225,40 270,20 320,10"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Tempo médio resposta</div><div class="subtitle">Minutos</div></div></div><div class="stack"><svg viewBox="0 0 320 160" preserveAspectRatio="none" style="width:100%;height:160px"><rect x="20" y="110" width="40" height="30" fill="currentColor" opacity="0.5"/><rect x="70" y="80" width="40" height="60" fill="currentColor" opacity="0.6"/><rect x="120" y="50" width="40" height="90" fill="currentColor" opacity="0.7"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Funil de conversão</div><div class="subtitle">Conversa → Agendamento → Evento</div></div></div><div class="stack"><svg viewBox="0 0 320 220" preserveAspectRatio="none" style="width:100%;height:220px"><polygon points="20,20 300,20 260,80 60,80" fill="currentColor" opacity="0.7"/><polygon points="60,120 260,120 230,170 90,170" fill="currentColor" opacity="0.85"/><polygon points="90,200 230,200 200,210 120,210" fill="currentColor" opacity="0.95"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Tipos de solicitação</div><div class="subtitle">Pizza</div></div></div><div class="stack"><svg viewBox="0 0 320 200" preserveAspectRatio="none" style="width:100%;height:200px"><circle cx="160" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="30" stroke-dasharray="200 400" opacity="0.9"/><circle cx="160" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="30" stroke-dasharray="120 400" stroke-dashoffset="-200" opacity="0.75"/></svg></div></div></div><div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 18px;"><div class="card"><div class="card-head"><div><div class="title">Integrações</div><div class="subtitle">Status</div></div></div><div class="stack" id="home-integrations"><div class="row"><div class="k">WhatsApp</div><div class="v" style="color:var(--ok)">Conectado</div></div><div class="row"><div class="k">Hermes</div><div class="v" style="color:var(--ok)">Ativo</div></div></div></div><div class="card"><div class="card-head"><div><div class="title">Saúde do sistema</div><div class="subtitle">Indicadores</div></div></div><div class="stack"><div class="row"><div class="k">Gateway</div><div class="v" id="health-gateway">—</div></div><div class="row"><div class="k">Uso de tokens</div><div class="v" id="health-tokens">—</div></div><div class="row"><div class="k">Custo estimado</div><div class="v" id="health-cost">—</div></div><div class="row"><div class="k">Erros API</div><div class="v" id="health-errors">—</div></div></div></div></div></main>
+  </div>
+  <script src="/app.js?v=7"></script>
+  <script>
+    (function(){
+      function routeFallback(){
+        var page = (location.hash||'#/home').replace('#/','').split('/')[0]||'home';
+        var main = document.querySelector('.main');
+        if(!main) return;
+        if(page==='produtos'){
+          main.innerHTML = '<div class="page"><div class="page-header"><div><div class="title">Produtos/Serviços</div><div class="subtitle">Cadastre itens para a IA usar em respostas.</div></div><button class="badge primary" id="prod-add-fallback">Novo item</button></div><div id="prod-list-fallback" class="column-list"><div class="empty muted">Nenhum item.</div></div></div>';
+          document.getElementById('prod-add-fallback').addEventListener('click', function(){
+            var title = prompt('Título:');
+            if(title===null) return;
+            var value = prompt('Valor:')||'';
+            var desc = prompt('Descrição:')||'';
+            var list = document.getElementById('prod-list-fallback');
+            var item = document.createElement('li');
+            item.className='card-item';
+            item.innerHTML = '<div class="stack"><div class="flex-between"><strong>'+title+'</strong><span class="badge">'+value+'</span></div><div class="muted">'+desc+'</div></div>';
+            list.innerHTML='';
+            list.appendChild(item);
+            localStorage.setItem('sx.produtos.items', JSON.stringify([{title:title,value:value,description:desc,customFields:[],image:''}]));
+          });
+        }else if(page==='relatorios'){
+          main.innerHTML = '<div class="page"><div class="page-header"><div><div class="title">Relatórios</div><div class="subtitle">Visualize os documentos enviados pelos agentes.</div></div><button class="badge primary" id="rel-add-fallback">Novo relatório</button></div><div id="rel-list-fallback" class="column-list"><div class="empty muted">Nenhum relatório.</div></div></div>';
+          document.getElementById('rel-add-fallback').addEventListener('click', function(){
+            var title = prompt('Título do relatório:');
+            if(title===null) return;
+            title = String(title).trim()||'Sem título';
+            var content = prompt('Conteúdo/texto do relatório:')||'';
+            var list = document.getElementById('rel-list-fallback');
+            list.innerHTML='';
+            var item = document.createElement('li');
+            item.className='card-item';
+            item.innerHTML = '<div class="stack"><div class="flex-between"><strong>'+title+'</strong><span class="badge">Pendente aprovação</span></div><div class="muted">'+content+'</div></div>';
+            list.appendChild(item);
+            localStorage.setItem('sx.relatorios.items', JSON.stringify([{title:title,content:content,authorized:false,createdAt:Date.now()}]));
+          });
+        }
+      }
+      window.addEventListener('hashchange', routeFallback);
+      window.addEventListener('load', routeFallback);
+      function routeHomeFallback(){
+        var page = (location.hash||'#/home').replace('#/','').split('/')[0]||'home';
+        var main = document.querySelector('.main');
+        if(!main || page!=='home') return;
+        main.innerHTML = '<div class="page"><div class="page-header"><div><div class="title">Início</div><div class="subtitle">Visão geral da operação.</div></div></div><div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;"><div class="card"><div class="muted">Eventos no mês</div><div class="kpi" id="home-events">0</div><div class="muted" id="home-events-delta"></div></div><div class="card"><div class="muted">Conversas ativas hoje</div><div class="kpi" id="home-chats">0</div><div class="muted" id="home-chats-delta"></div></div><div class="card"><div class="muted">Taxa de ocupação</div><div class="kpi" id="home-occupancy">0%</div><div class="muted" id="home-occupancy-delta"></div></div><div class="card"><div class="muted">Usuários ativos</div><div class="kpi" id="home-users">0</div><div class="muted" id="home-users-delta"></div></div></div><div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 18px;"><div class="card"><div class="card-head"><div><div class="title">Atividade</div><div class="subtitle">Últimos 7 dias</div></div></div><div class="stack"><svg viewBox="0 0 320 160" preserveAspectRatio="none" style="width:100%;height:160px"><polyline fill="none" stroke="currentColor" stroke-width="2" points="0,140 45,120 90,110 135,100 180,80 225,70 270,40 320,20"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Eventos por status</div><div class="subtitle">Empilhado</div></div></div><div class="stack"><svg viewBox="0 0 320 180" preserveAspectRatio="none" style="width:100%;height:180px"><rect x="20" y="120" width="40" height="40" fill="currentColor" opacity="0.6"/><rect x="70" y="90" width="40" height="70" fill="currentColor" opacity="0.7"/><rect x="120" y="60" width="40" height="100" fill="currentColor" opacity="0.8"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Horários mais movimentados</div><div class="subtitle">Semana atual</div></div></div><div class="stack"><svg viewBox="0 0 320 200" preserveAspectRatio="none" style="width:100%;height:200px"><rect x="20" y="40" width="30" height="140" fill="currentColor" opacity="0.5"/><rect x="60" y="20" width="30" height="160" fill="currentColor" opacity="0.6"/><rect x="100" y="50" width="30" height="130" fill="currentColor" opacity="0.5"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Distribuição por tipo</div><div class="subtitle">Rosca</div></div></div><div class="stack"><svg viewBox="0 0 320 200" preserveAspectRatio="none" style="width:100%;height:200px"><circle cx="160" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="30" stroke-dasharray="160 440" opacity="0.9"/><circle cx="160" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="30" stroke-dasharray="120 440" stroke-dashoffset="-160" opacity="0.7"/></svg></div></div></div><div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 18px;"><div class="card"><div class="card-head"><div><div class="title">Mensagens por dia</div><div class="subtitle">Últimos 7 dias</div></div></div><div class="stack"><svg viewBox="0 0 320 160" preserveAspectRatio="none" style="width:100%;height:160px"><polyline fill="none" stroke="currentColor" stroke-width="2" points="0,120 45,110 90,80 135,100 180,60 225,40 270,20 320,10"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Tempo médio resposta</div><div class="subtitle">Minutos</div></div></div><div class="stack"><svg viewBox="0 0 320 160" preserveAspectRatio="none" style="width:100%;height:160px"><rect x="20" y="110" width="40" height="30" fill="currentColor" opacity="0.5"/><rect x="70" y="80" width="40" height="60" fill="currentColor" opacity="0.6"/><rect x="120" y="50" width="40" height="90" fill="currentColor" opacity="0.7"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Funil</div><div class="subtitle">Conversa → Agendamento → Evento</div></div></div><div class="stack"><svg viewBox="0 0 320 220" preserveAspectRatio="none" style="width:100%;height:220px"><polygon points="20,20 300,20 260,80 60,80" fill="currentColor" opacity="0.7"/><polygon points="60,120 260,120 230,170 90,170" fill="currentColor" opacity="0.85"/><polygon points="90,200 230,200 200,210 120,210" fill="currentColor" opacity="0.95"/></svg></div></div><div class="card"><div class="card-head"><div><div class="title">Tipos de solicitação</div><div class="subtitle">Pizza</div></div></div><div class="stack"><svg viewBox="0 0 320 200" preserveAspectRatio="none" style="width:100%;height:200px"><circle cx="160" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="30" stroke-dasharray="200 400" opacity="0.9"/><circle cx="160" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="30" stroke-dasharray="120 400" stroke-dashoffset="-200" opacity="0.75"/></svg></div></div></div><div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 18px;"><div class="card"><div class="card-head"><div><div class="title">Integrações</div><div class="subtitle">Status</div></div></div><div class="stack"><div class="row"><div class="k">WhatsApp</div><div class="v" style="color:var(--ok)">Conectado</div></div><div class="row"><div class="k">Hermes</div><div class="v" style="color:var(--ok)">Ativo</div></div></div></div><div class="card"><div class="card-head"><div><div class="title">Saúde do sistema</div><div class="subtitle">Indicadores</div></div></div><div class="stack"><div class="row"><div class="k">Gateway</div><div class="v" id="home-gateway">—</div></div><div class="row"><div class="k">Uso de tokens</div><div class="v" id="home-tokens">—</div></div><div class="row"><div class="k">Custo estimado</div><div class="v" id="home-cost">—</div></div><div class="row"><div class="k">Erros API</div><div class="v" id="home-errors">—</div></div></div></div></div>';
+      }
+      window.addEventListener('hashchange', routeHomeFallback);
+      window.addEventListener('load', routeHomeFallback);
+    })();
+  </script>
+</body>
+</html>

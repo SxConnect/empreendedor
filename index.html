@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hermes By SxConnect</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <img class="brand-logo" src="/logo.png" alt="Hermes" />
+        <div class="brand-text">
+          <div class="brand-title">Hermes</div>
+          <div class="brand-subtitle">By SxConnect</div>
+        </div>
+        <button id="sidebar-toggle" class="theme-toggle brand-toggle" aria-label="Abrir ou fechar menu" title="Abrir/fechar menu">◀</button>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+      <nav class="nav">
+        <a class="nav-item active" data-page="home" href="#/home" title="Início"><span class="nav-icon">🏠</span><span class="nav-label">Início</span></a>
+        <a class="nav-item" data-page="assistente" href="#/assistente" title="Assistente"><span class="nav-icon">💬</span><span class="nav-label">Assistente</span></a>
+        <a class="nav-item" data-page="memoria" href="#/memoria" title="Memória"><span class="nav-icon">🧠</span><span class="nav-label">Memória</span></a>
+        <a class="nav-item" data-page="produtos" href="#/produtos" title="Produtos/Serviços"><span class="nav-icon">📦</span><span class="nav-label">Produtos/Serviços</span></a>
+        <a class="nav-item" data-page="whatsapp-embed" href="#/whatsapp-embed" title="WhatsApp"><span class="nav-icon">📱</span><span class="nav-label">WhatsApp</span></a>
+        <a class="nav-item" data-page="kambam" href="#/kambam" title="Kambam"><span class="nav-icon">🗂️</span><span class="nav-label">Kambam</span></a>
+        <a class="nav-item" data-page="hermes-dashboard" href="#/hermes-dashboard" title="Dashboard Hermes"><span class="nav-icon">🖥️</span><span class="nav-label">Dashboard</span></a>
+        <a class="nav-item" data-page="agendamento" href="#/agendamento" title="Agendamento"><span class="nav-icon">📅</span><span class="nav-label">Agendamento</span></a>
+        <a class="nav-item" data-page="relatorios" href="#/relatorios" title="Relatórios"><span class="nav-icon">📑</span><span class="nav-label">Relatórios</span></a>
+        <a class="nav-item" data-page="documentacao" href="#/documentacao" title="Documentação"><span class="nav-icon">📚</span><span class="nav-label">Documentação</span></a>
+      </nav>
+      <div class="sidebar-footer">
+        <span id="health-pill" class="pill">—</span>
+      </div>
+    </aside>
+    <main class="main" id="main"></main>
+  </div>
+  <script src="/app.js?v=4"></script>
+</body>
+</html>

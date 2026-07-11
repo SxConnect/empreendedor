@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentação do Painel - SxConnect</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .docs-wrap { padding: 8px 0; }
+    .docs-wrap h1 { font-size: 26px; font-weight: 800; margin: 0 0 6px; }
+    .docs-wrap h2 { font-size: 18px; font-weight: 700; margin: 22px 0 8px; }
+    .docs-wrap p { color: var(--muted); line-height: 1.6; margin: 0 0 12px; }
+    .docs-wrap ul { padding-left: 18px; color: var(--muted); }
+    .docs-wrap li { margin: 6px 0; }
+    .docs-wrap code { background: rgba(148,163,184,0.1); padding: 2px 6px; border-radius: 6px; font-size: 12px; }
+    .docs-wrap .step { margin: 10px 0 0; padding-left: 18px; }
+    .docs-wrap .step li { margin: 6px 0; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <img class="brand-logo" src="/logo.png" alt="Hermes" />
+        <div class="brand-text">
+          <div class="brand-title">Hermes</div>
+          <div class="brand-subtitle">By SxConnect</div>
+        </div>
+        <button id="sidebar-toggle" class="theme-toggle brand-toggle" aria-label="Abrir ou fechar menu" title="Abrir/fechar menu">◀</button>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+      <nav class="nav">
+        <a class="nav-item" href="/#/home" title="Início"><span class="nav-icon">🏠</span><span class="nav-label">Início</span></a>
+        <a class="nav-item" href="/#/assistente" title="Assistente"><span class="nav-icon">💬</span><span class="nav-label">Assistente</span></a>
+        <a class="nav-item" href="/#/whatsapp-embed" title="WhatsApp"><span class="nav-icon">📱</span><span class="nav-label">WhatsApp</span></a>
+        <a class="nav-item" href="/#/kambam" title="Kambam"><span class="nav-icon">🗂️</span><span class="nav-label">Kambam</span></a>
+        <a class="nav-item" href="/#/agendamento" title="Agendamento"><span class="nav-icon">📅</span><span class="nav-label">Agendamento</span></a>
+        <a class="nav-item" href="/#/documentacao" title="Documentação"><span class="nav-icon">📑</span><span class="nav-label">Documentação</span></a>
+      </nav>
+      <div class="sidebar-footer"><span id="health-pill" class="pill">—</span></div>
+    </aside>
+    <main class="main" id="main">
+      <div class="docs-wrap">
+        <h1>Documentação do Painel</h1>
+        <h2>O que é o SxConnect Dashboard</h2>
+        <p>É uma interface unificada para operar atendimento, automação, CRM, IA e integrações. O objetivo é reduzir tarefas repetitivas, centralizar informações e aumentar a previsibilidade da operação.</p>
+
+        <h2>Primeiros passos após instalar</h2>
+        <ol class="step">
+          <li>Abra o painel em <code>http://127.0.0.1:9000</code>.</li>
+          <li>Confirme se o status geral está ativo.</li>
+          <li>No menu lateral, abra <strong>Documentação</strong> para seguir este guia.</li>
+          <li>Antes de usar módulos avançados, revise conexões em <strong>Início</strong> e em <strong>Assistente</strong>.</li>
+          <li>Configure o WhatsApp, se necessário, e depois vá para <strong>Produtos</strong> para alimentar o assistente com base de conhecimento.</li>
+        </ol>
+
+        <h2>Módulos principais</h2>
+        <ul>
+          <li><strong>Início</strong>: visão rápida do ecossistema conectado e status dos serviços.</li>
+          <li><strong>Assistente</strong>: chat em linguagem natural que pode usar agentes/contextos para responder operacionalmente.</li>
+          <li><strong>Memória</strong>: armazenamento de anexos/referências usados pelo fluxo.</li>
+          <li><strong>Produtos</strong>: cadastro de itens que ajudam a IA a responder com mais precisão.</li>
+          <li><strong>Relatórios</strong>: área para revisar documentos/relatórios e autorizar quando necessário.</li>
+          <li><strong>WhatsApp</strong>: painel integrado para contatos e conversas.</li>
+          <li><strong>Kambam</strong>: funil de vendas com colunas configuráveis.</li>
+          <li><strong>Agendamento</strong>: gestão de horários e disponibilidade.</li>
+          <li><strong>Documentação</strong>: guias e referências rápidas.</li>
+        </ul>
+
+        <h2>Checklist de uso recomendado</h2>
+        <ul>
+          <li>Verificar status dos serviços em <strong>Início</strong>.</li>
+          <li>Validar se o <strong>WhatsApp</strong> está conectado.</li>
+          <li>Cadastrar produtos/serviços em <strong>Produtos</strong>.</li>
+          <li>Configurar funil em <strong>Kambam</strong>.</li>
+          <li>Ajustar regras de <strong>Agendamento</strong> conforme horário de funcionamento.</li>
+          <li>Usar <strong>Assistente</strong> para testar respostas e fluxos.</li>
+        </ul>
+
+        <h2>Configurações comuns</h2>
+        <ul>
+          <li>Painel principal: <code>9000</code>.</li>
+          <li>Integração com WhatsApp: <code>8080</code>.</li>
+          <li>Contatos/serviços auxiliares: <code>9002</code>.</li>
+          <li>Dashboard nativo Hermes: <code>9119</code>.</li>
+        </ul>
+
+        <h2>Solução rápida</h2>
+        <ul>
+          <li>Se a página carregar em branco, force uma atualização.</li>
+          <li>Veja o console do navegador para erros de JS/CORS.</li>
+          <li>Valide se os serviços auxiliares estão atendendo nas respectivas portas.</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+  <script>
+    (function(){
+      var key = 'sx.theme';
+      var root = document.documentElement;
+      var saved = localStorage.getItem(key);
+      if (saved) root.setAttribute('data-theme', saved);
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', function(){
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem(key, next);
+        btn.textContent = next === 'dark' ? '🌙' : '☀️';
+      });
+    })();
+  </script>
+</body>
+</html>

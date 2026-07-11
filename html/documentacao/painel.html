@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentação do Painel - SxConnect</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .docs-wrap { padding: 12px 16px; }
+    .docs-wrap h1 { font-size: 26px; font-weight: 800; margin: 0 0 18px; color: #000000; }
+    .docs-wrap h2 { font-size: 18px; font-weight: 700; margin: 22px 0 8px; color: #000000; }
+    .docs-wrap p, .docs-wrap ul { line-height: 1.6; margin: 0 0 12px; color: #000000; }
+    .docs-wrap ul { padding-left: 18px; }
+    .docs-wrap li { margin: 6px 0; color: #000000; }
+    .docs-wrap code { background: rgba(0,0,0,.06); padding: 2px 6px; border-radius: 6px; font-size: 12px; border: 1px solid rgba(0,0,0,.12); color: #000000; }
+    .docs-wrap .step { margin: 10px 0 0; padding-left: 18px; }
+    .docs-wrap .step li { margin: 6px 0; color: #000000; }
+    .docs-wrap strong { color: #000000; }
+
+    html[data-theme="dark"] .docs-wrap { color: #e5e7eb; background: transparent; }
+    html[data-theme="dark"] .docs-wrap h1 { color: #ffffff; background: transparent; }
+    html[data-theme="dark"] .docs-wrap h2 { color: #e5e7eb; background: transparent; }
+    html[data-theme="dark"] .docs-wrap p, html[data-theme="dark"] .docs-wrap ul { color: #e5e7eb; background: transparent; }
+    html[data-theme="dark"] .docs-wrap li { color: #e5e7eb; background: transparent; }
+    html[data-theme="dark"] .docs-wrap strong { color: #ffffff; background: transparent; }
+    html[data-theme="dark"] .docs-wrap code { background: rgba(255,255,255,.08); color: #e5e7eb; border-color: rgba(255,255,255,.12); }
+  </style>
+</head>
+<body>
+  <main class="main" id="main">
+    <div class="docs-wrap">
+      <h1>Documentação do Painel</h1>
+      <h2>O que é o SxConnect Dashboard</h2>
+      <p>É uma interface unificada para operar atendimento, automação, CRM, IA e integrações. O objetivo é reduzir tarefas repetitivas, centralizar informações e aumentar a previsibilidade da operação.</p>
+
+      <h2>Primeiros passos após instalar</h2>
+      <ol class="step">
+        <li>Abra o painel em <code>http://127.0.0.1:9000</code>.</li>
+        <li>Confirme se o status geral está ativo.</li>
+        <li>No menu lateral, abra <strong>Documentação</strong> para seguir este guia.</li>
+        <li>Antes de usar módulos avançados, revise conexões em <strong>Início</strong> e em <strong>Assistente</strong>.</li>
+        <li>Configure o WhatsApp, se necessário, e depois vá para <strong>Produtos</strong> para alimentar o assistente com base de conhecimento.</li>
+      </ol>
+
+      <h2>Módulos principais</h2>
+      <ul>
+        <li><strong>Início</strong>: visão rápida do ecossistema conectado e status dos serviços.</li>
+        <li><strong>Assistente</strong>: chat em linguagem natural que pode usar agentes/contextos para responder operacionalmente.</li>
+        <li><strong>Memória</strong>: armazenamento de anexos/referências usados pelo fluxo.</li>
+        <li><strong>Produtos</strong>: cadastro de itens que ajudam a IA a responder com mais precisão.</li>
+        <li><strong>Relatórios</strong>: área para revisar documentos/relatórios e autorizar quando necessário.</li>
+        <li><strong>WhatsApp</strong>: painel integrado para contatos e conversas.</li>
+        <li><strong>Kambam</strong>: funil de vendas com colunas configuráveis.</li>
+        <li><strong>Agendamento</strong>: gestão de horários e disponibilidade.</li>
+        <li><strong>Documentação</strong>: guias e referências rápidas.</li>
+      </ul>
+
+      <h2>Checklist de uso recomendado</h2>
+      <ul>
+        <li>Verificar status dos serviços em <strong>Início</strong>.</li>
+        <li>Validar se o <strong>WhatsApp</strong> está conectado.</li>
+        <li>Cadastrar produtos/serviços em <strong>Produtos</strong>.</li>
+        <li>Configurar funil em <strong>Kambam</strong>.</li>
+        <li>Ajustar regras de <strong>Agendamento</strong> conforme horário de funcionamento.</li>
+        <li>Usar <strong>Assistente</strong> para testar respostas e fluxos.</li>
+      </ul>
+
+      <h2>Configurações comuns</h2>
+      <ul>
+        <li>Painel principal: <code>9000</code>.</li>
+        <li>Integração com WhatsApp: <code>8080</code>.</li>
+        <li>Contatos/serviços auxiliares: <code>9002</code>.</li>
+        <li>Dashboard nativo Hermes: <code>9119</code>.</li>
+      </ul>
+
+      <h2>Solução rápida</h2>
+      <ul>
+        <li>Se a página carregar em branco, force uma atualização.</li>
+        <li>Veja o console do navegador para erros de JS/CORS.</li>
+        <li>Valide se os serviços auxiliares estão atendendo nas respectivas portas.</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
