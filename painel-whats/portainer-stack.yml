@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  painel-whats:
+    image: ghcr.io/sxconnect/empreendedor:latest
+    container_name: painel-whats
+    restart: unless-stopped
+    ports:
+      - "8083:8080"
+    volumes:
+      - painel-data:/app/storages
+      - painel-uploads:/app/public/uploads
+    environment:
+      - NODE_ENV=production
+      - PORT=8080
+      - VITE_ADMIN_USERNAME=${ADMIN_USERNAME}
+      - VITE_ADMIN_PASSWORD=${ADMIN_PASSWORD}
+    networks:
+      - painel-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  painel-data:
+    driver: local
+  painel-uploads:
+    driver: local
+
+networks:
+  painel-network:
+    driver: bridge
