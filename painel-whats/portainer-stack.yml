@@ -31,14 +31,12 @@ services:
       # ── Serviço único (mesma app) ─────────────────────────────
       - "traefik.http.services.polpes-app.loadbalancer.server.port=8080"
 
-      # ── SITE PÚBLICO — polpes.com.br ──────────────────────────
+      # ── SITE PÚBLICO — polpes.com.br (a raiz / já é o app) ─────
       - "traefik.http.routers.polpes-site.rule=Host(`polpes.com.br`) || Host(`www.polpes.com.br`)"
       - "traefik.http.routers.polpes-site.entrypoints=websecure"
       - "traefik.http.routers.polpes-site.service=polpes-app"
       - "traefik.http.routers.polpes-site.tls.certresolver=leresolver"
-      - "traefik.http.middlewares.polpes-site-root.replacepathregex.regex=^/$"
-      - "traefik.http.middlewares.polpes-site-root.replacepathregex.replacement=/cardapio"
-      - "traefik.http.routers.polpes-site.middlewares=polpes-site-root"
+      # Sem redirect: a raiz / serve o app (o WhatsBot não tem /cardapio)
 
       # ── PAINEL WHATSAPP — painel.polpes.com.br ────────────────
       - "traefik.http.routers.polpes-panel.rule=Host(`painel.polpes.com.br`)"
