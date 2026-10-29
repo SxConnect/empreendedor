@@ -81,8 +81,8 @@ networks:
 
 ## Acesso
 
-- **Site público:** `http://seu-servidor:8083`
-- **Painel admin:** `http://seu-servidor:8083/admin`
+- **Painel admin:** `http://seu-servidor:8083/`
+- **Dashboard:** `http://seu-servidor:8083/dashboard`
 
 ## Atualizações
 
