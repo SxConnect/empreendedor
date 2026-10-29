@@ -3,10 +3,10 @@ version: '3.8'
 services:
   painel-whats:
     image: ghcr.io/sxconnect/empreendedor:latest
-    container_name: painel-whats
+    container_name: polpes
     restart: unless-stopped
     ports:
-      - "8083:8080"
+      - "127.0.0.1:8080:8080"
     volumes:
       - painel-data:/app/storages
       - painel-uploads:/app/public/uploads
@@ -15,14 +15,36 @@ services:
       - PORT=8080
       - VITE_ADMIN_USERNAME=${ADMIN_USERNAME}
       - VITE_ADMIN_PASSWORD=${ADMIN_PASSWORD}
-    networks:
-      - painel-network
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 40s
+      start_period: 60s
+    networks:
+      - default
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=portainer_default"
+
+      # ── Serviço único (mesma app) ─────────────────────────────
+      - "traefik.http.services.polpes-app.loadbalancer.server.port=8080"
+
+      # ── SITE PÚBLICO — polpes.com.br ──────────────────────────
+      - "traefik.http.routers.polpes-site.rule=Host(`polpes.com.br`) || Host(`www.polpes.com.br`)"
+      - "traefik.http.routers.polpes-site.entrypoints=websecure"
+      - "traefik.http.routers.polpes-site.service=polpes-app"
+      - "traefik.http.routers.polpes-site.tls.certresolver=leresolver"
+      - "traefik.http.middlewares.polpes-site-root.replacepathregex.regex=^/$"
+      - "traefik.http.middlewares.polpes-site-root.replacepathregex.replacement=/cardapio"
+      - "traefik.http.routers.polpes-site.middlewares=polpes-site-root"
+
+      # ── PAINEL WHATSAPP — painel.polpes.com.br ────────────────
+      - "traefik.http.routers.polpes-panel.rule=Host(`painel.polpes.com.br`)"
+      - "traefik.http.routers.polpes-panel.entrypoints=websecure"
+      - "traefik.http.routers.polpes-panel.service=polpes-app"
+      - "traefik.http.routers.polpes-panel.tls.certresolver=leresolver"
 
 volumes:
   painel-data:
@@ -31,5 +53,6 @@ volumes:
     driver: local
 
 networks:
-  painel-network:
-    driver: bridge
+  proxy:
+    external: true
+    name: portainer_default
